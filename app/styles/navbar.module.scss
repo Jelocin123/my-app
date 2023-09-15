@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.5s;
+  z-index: 5;
+  padding: 0 15px;
+  background-color: black;
+  overflow-y: auto;
+
+  
+
+
+  .profile img {
+    margin: 26px auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 200px;
+    border: 8px solid #2c2f3f;
+
+    
+  }
+
+  .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+
+  .profile h1 a,
+  .profile h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .profile .social_links a {
+     font-size: 21px;
+    display: inline-block;
+    background-color: #2c2f3f;
+    color: #fff;
+    line-height: 1;
+    padding: 10px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 41px;
+    height: 41px;
+    transition: 0.3s;
+
+    
+  }
+
+  .profile .social_links a:hover {
+    background-color: #149ddd;
+    color: white;
+    text-decoration: none;
+  }
+
+
+}
+
+.nav_menu {
+  padding: 30px 0 0 0;
+
+  hr {
+    color: rgb(92, 91, 91);
+  }
+}
+
+.nav_menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav_menu>ul>li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav_menu a,
+.nav_menu a:focus {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+   
+    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 600;
+
+  
+}
+
+.nav_menu a i,
+.nav_menu a:focus i {
+  font-size: 17px;
+  padding-right: 8px;
+  color: #6f7180;
+
+ 
+}
+
+.nav_menu a:hover,
+.nav_menu .active,
+.nav_menu .active:focus,
+.nav_menu li:hover>a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav_menu a:hover i,
+.nav_menu .active i,
+.nav_menu .active:focus i,
+.nav_menu li:hover>a i {
+  color: #149ddd;
+}
+
+
+
+

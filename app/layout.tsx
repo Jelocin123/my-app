@@ -1,4 +1,8 @@
 import './globals.css'
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import Navbar from './components/navbar';
+import Welcome from "./components/welcome"
+import Footer from "./components/footer"
 
 export const metadata = {
   title: 'Create Next App',
@@ -12,10 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
-        <main className="min-h-screen bg-background flex flex-col items-center">
+      <body >
+        <Navbar/>
+        <Welcome/>
+        <main>
           {children}
+          
         </main>
+        <Footer/>
       </body>
     </html>
   )

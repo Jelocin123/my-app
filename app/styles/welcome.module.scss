@@ -1,0 +1,18 @@
+#title {
+    margin-left: 230px;
+    h1 {
+        color: white;
+        font-family:'Courier New', Courier, monospace;
+        font-size: calc(.7em + .7vw);
+
+        @media screen and (min-width: 1920px) {
+        font-size: 21.28px;
+            
+          }
+    }
+
+    
+
+
+ 
+}
